@@ -1,0 +1,60 @@
+// Imports
+
+@import '../../Media_SCSS/Breakpoints.scss';
+@import '../../Media_SCSS/Variables.scss';
+
+// Media
+
+@include Ipad_pro() {
+    .start_page_text_div {
+        .first_paragraph {
+            font-size: 20px;
+        }
+
+        .second_paragraph {
+            font-size: 26px;
+        }
+    }
+}
+
+@include Laptop() {
+    .start_page_text_div {
+        .first_paragraph {
+            font-size: 15px;
+        }
+
+        .second_paragraph {
+            font-size: 20px;
+        }
+    }
+}
+
+@include Bg_mobile() {
+    .start_page_text_div {
+
+        margin-top: 3em;
+
+        .first_paragraph {
+            font-size: 12px;
+        }
+
+        .second_paragraph {
+            font-size: 15px;
+        }
+    }
+}
+
+@include St_mobile() {
+    .start_page_text_div {
+
+        margin-top: 4em;
+
+        .first_paragraph {
+            font-size: 8.5px;
+        }
+
+        .second_paragraph {
+            font-size: 11px;
+        }
+    }
+}

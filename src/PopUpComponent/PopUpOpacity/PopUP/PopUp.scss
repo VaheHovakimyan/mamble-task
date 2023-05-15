@@ -1,0 +1,52 @@
+.pop_up_div {
+    width: 400px;
+    height: 200px;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+
+    .pop_up_elemets_flex {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 400px;
+        height: 200px;
+
+        .pop_up_title {
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 28px;
+            color: #008594;
+        }
+
+        .pop_up_answer_div_flex {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .pop_up_answer_div {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 100px;
+
+                .pop_up_answer_text {
+                    font-family: 'Poppins', sans-serif;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 18px;
+                    line-height: 28px;
+                    color: #174348;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

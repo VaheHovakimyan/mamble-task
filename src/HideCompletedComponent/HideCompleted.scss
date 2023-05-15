@@ -1,0 +1,44 @@
+.hide_completed_div {
+
+    width: 83vw;
+    height: 20vh;
+
+    .hide_completed {
+
+        display: flex;
+        justify-content: end;
+        vertical-align: bottom;
+        align-items: flex-end;
+        height: 100%;
+
+        .checkbox_text_div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            input[type="checkbox"] {
+                appearance: none;
+                border: 2px #008594 solid;
+                border-radius: 4px;
+                width: 18px;
+                height: 18px;
+            }
+
+            input[type="checkbox"]:checked {
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-image: url('../Icons/checkboxTrue.png');
+            }
+
+            .hide_completed_text {
+                font-family: 'Poppins', sans-serif;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 17px;
+                margin-left: 0.5em;
+            }
+        }
+
+    }
+
+}

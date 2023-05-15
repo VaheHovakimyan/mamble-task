@@ -1,0 +1,11 @@
+.main_div {
+    display: flex;
+    width: 95vw;
+
+    .main {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

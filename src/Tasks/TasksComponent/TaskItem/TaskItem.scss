@@ -1,0 +1,51 @@
+.task_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    height: 7vh;
+    border-bottom: #E5E5E5 1px solid;
+
+    .task {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 78.5vw;
+        height: 7vh;
+
+        input[type="checkbox"]{
+            appearance: none;
+            border: 2px #008594 solid;
+            border-radius: 4px;
+            width: 18px;
+            height: 18px;
+        }
+
+        input[type="checkbox"]:checked{
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-image: url('../../../Icons/checkboxTrue.png');
+        }
+
+        .task_text {
+            width: 72.5vw;
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 32px;
+        }
+
+        .delete_button {
+            background-image: url("../../../Icons/Vector.png");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 14px;
+            height: 14px;
+            cursor: pointer;
+        }
+
+    }
+}

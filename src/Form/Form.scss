@@ -1,0 +1,82 @@
+.form_div {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    vertical-align: bottom;
+    height: 20vh;
+
+    .form {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90vw;
+
+        .form_flex{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .input_task_title_error {
+                .task_title {
+                    font-family: 'Poppins', sans-serif;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    text-transform: capitalize;
+                    color: #174348;
+                    margin: 0;
+                }
+    
+                .form_input {
+                    width: 67vw;
+                    height: 52px;
+                    border-radius: 4px;
+                    box-sizing: border-box;
+                    font-size: 18px;
+                    margin-right: 25px;
+                    outline: none;
+                    padding-inline-start: 12px;
+                }
+    
+                .form_input::placeholder {
+    
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    color: #DFDFDF;
+    
+                }
+    
+                .error_text {
+                    font-family: 'Poppins', sans-serif;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 18px;
+                    color: #FF3104;
+                    margin: 0.5em 0 4em 0;
+                }
+    
+            }
+    
+            .form_button {
+                width: 100px;
+                height: 52px;
+                background: #008594;
+                border-radius: 4px;
+                border: 0px;
+                font-family: 'Poppins', sans-serif;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                padding: 0px;
+                color: white;
+                cursor: pointer;
+            }
+        }
+
+    }
+
+}

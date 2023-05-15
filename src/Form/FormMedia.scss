@@ -1,0 +1,54 @@
+// Imports
+
+@import '../Media_SCSS/Breakpoints.scss';
+@import '../Media_SCSS/Variables.scss';
+
+// Media
+
+@include Bg_mobile {
+    .form_div {
+        display: flex;
+        flex-direction: column;
+        height: 30vh;
+        width: 100vw;
+
+        .form {
+            width: 100vw;
+
+            .form_flex {
+                flex-direction: column;
+
+                .task_title_div {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    .task_title {
+                        width: 70vw;
+                    }
+                }
+
+                .form_input_title {
+                    display: flex;
+                    flex-direction: column;
+                }
+    
+                .form_input {
+                    width: 75vw;
+                }
+    
+                .form_button_div {
+                    display: flex;
+                    justify-content: flex-end;
+                    width: 65vw;
+    
+                    .form_button {
+                        margin-top: 20px;
+                    }
+                }
+            }
+
+        }
+
+    }
+}
