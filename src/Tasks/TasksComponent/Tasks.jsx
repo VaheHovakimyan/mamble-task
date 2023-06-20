@@ -4,7 +4,7 @@ import './Tasks.scss';
 
 // Tasks component
 
-export default function Tasks({ todos,storedTodos,onChange,onDelete, onPopUp, onHideCompleted, hidden, storedHidden }) {
+export default function Tasks({ todos, storedTodos, onChange, onDelete, onPopUp, onHideCompleted, hidden, storedHidden }) {
 
     // console.log(todos);
 

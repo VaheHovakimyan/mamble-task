@@ -7,7 +7,7 @@ import PopUpOpacity from '../../../PopUpComponent/PopUpOpacity/PopUpOpacity'
 
 // TaskItem component
 
-export default function TaskItem({ todo,display,todos,onChange,onDelete, onPopUp, onHideCompleted, hidden, storedHidden }) {
+export default function TaskItem({ todo, display, todos, onChange, onDelete, onPopUp, onHideCompleted, hidden, storedHidden }) {
 
 
     // console.log(todo);
@@ -19,7 +19,7 @@ export default function TaskItem({ todo,display,todos,onChange,onDelete, onPopUp
         >
             <div className='task'>
 
-            
+
                 {/* <input
                     type="checkbox"
                     checked={todo.isCompleted}
